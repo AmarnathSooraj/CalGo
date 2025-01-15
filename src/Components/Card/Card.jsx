@@ -21,9 +21,8 @@ const Card = () => {
                 <li>S.M. Street (Sweet Meat Street)</li>
                 <li>Mishkal Mosque</li>
                 <li>Kozhikode Beach</li>
-                <li>Kappad Beach</li>
-                <li>Beypore Beach</li>
                 <li>Kallayi River</li>
+                <li>Beypore Beach</li>
               </ul>
             </div>
           </div>
