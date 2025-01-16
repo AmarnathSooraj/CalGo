@@ -15,6 +15,13 @@ const Home = ({ heroCount }) => {
     navigate('/card');
   };
 
+  const handleNeedParkingClick = () => {
+    window.location.href = 'https://amarnathsooraj.github.io/Parking/';
+  };
+  
+  
+  
+
   return (
     <div className="container">
       <div className="main">
@@ -48,7 +55,7 @@ const Home = ({ heroCount }) => {
         </p>
       </div>
       <div className="Travel">
-        <button>Need Parking?</button>
+        <button onClick={handleNeedParkingClick}>Need Parking?</button>
         <button>Need Vehicles?</button>
       </div>
     </div>
@@ -56,3 +63,4 @@ const Home = ({ heroCount }) => {
 };
 
 export default Home;
+
