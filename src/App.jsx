@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Loader from './Components/Loader/Loader.jsx';
 import Home from './Components/Home/Home.jsx';
 import Card from './Components/Card/Card.jsx';
+
 import './App.css';
 
 function App() {
